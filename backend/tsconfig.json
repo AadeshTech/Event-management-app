@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "outDir": "./dist",  // Output compiled JavaScript to the 'dist' folder
+    "rootDir": "./",  // Root directory where source files are located (your case is directly in the root)
+    "strict": true,  // Enable strict type checking
+    "module": "commonjs",  // CommonJS module system for Node.js
+    "target": "ES6"  // Output JavaScript targeting ES6
+  },
+  "include": [
+    "./index.ts"  // Include the index.ts file in the compilation
+  ],
+  "exclude": [
+    "node_modules"  // Exclude the 'node_modules' directory
+  ]
+}

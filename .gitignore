@@ -1,0 +1,28 @@
+# Node.js backend (located in the "backend" folder)
+backend/node_modules/
+backend/package-lock.json
+backend/.env
+backend/.env.local
+backend/.env.*.local
+backend/build/
+backend/dist/
+
+# React frontend (located in the "frontend" folder)
+frontend/node_modules/
+frontend/package-lock.json
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+frontend/build/
+frontend/public/
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
